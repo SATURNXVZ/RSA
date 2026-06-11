@@ -75,11 +75,11 @@ void rsa_gerar_chaves(ll p, ll q, RSAChave *publica, RSAChave *privada) {
     publica->chave  = e;  publica->n  = n;
     privada->chave  = d;  privada->n  = n;
 
-    printf("=== Geração de Chaves RSA ===\n");
+    printf("=== Geracao de Chaves RSA ===\n");
     printf("  p = %lld, q = %lld\n", p, q);
     printf("  n = p*q = %lld\n", n);
     printf("  phi(n) = %lld\n", phi);
-    printf("  e (chave pblica)  = %lld\n", e);
+    printf("  e (chave publica)  = %lld\n", e);
     printf("  d (chave privada)  = %lld\n\n", d);
 }
 
